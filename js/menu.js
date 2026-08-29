@@ -1097,37 +1097,46 @@ const menuItems = [
 
     // SIGNATURE DISHES
 
-        {
-        category: "Signature Dishes",
-        name: "Kaju Paneer Seekh Kebab",
-        price: "₹380",
-        description: "",
-        image: ""
-    },
-
-
-        {
-        category: "Signature Dishes",
-        name: "Multani Paneer Tikka",
-        price: "₹360",
-        description: "",
-        image: ""
-    },
-
-
-      {
-        category: "Signature Dishes",
-        name: "Haandi Dum Biryani",
-        price: "₹350",
-        description: "",
-        image: ""
-    },
-
 
         {
         category: "Signature Dishes",
         name: "Dahi Ke Sholay",
         price: "₹360",
+        description: "",
+        image: ""
+    },
+
+
+
+    {
+    category: "Signature Dishes",
+    name: "Palak Patta Chaat",
+    price: "₹270",
+    description: "",
+    image: ""
+},
+
+{
+    category: "Signature Dishes",
+    name: "Kamal Kakdi Chaat",
+    price: "₹290",
+    description: "",
+    image: ""
+},
+
+{
+    category: "Signature Dishes",
+    name: "Honey Chilli Lotus Stem",
+    price: "₹320",
+    description: "",
+    image: ""
+},
+
+
+ {
+        category: "Main Course",
+        name: "Angoori Kofta",
+        price: "₹350",
         description: "",
         image: ""
     },

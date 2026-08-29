@@ -4580,3 +4580,20 @@ select {
 
 
 
+/* LOGO */
+
+
+      .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.logo-sz {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: contain;
+    transform: scale(0.8);
+    transform-origin: center;
+}
