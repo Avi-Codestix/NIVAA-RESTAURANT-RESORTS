@@ -69,24 +69,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-// document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
 
-//     const bookButtons = document.querySelectorAll(".nivaa-book-room");
+    const bookButtons = document.querySelectorAll(".nivaa-book-room");
 
-//     bookButtons.forEach(function (button) {
+    bookButtons.forEach(function (button) {
 
-//         button.addEventListener("click", function () {
+        button.addEventListener("click", function () {
 
-//             const roomName = this.dataset.room;
-//             const roomPrice = this.dataset.price;
+            const roomName = this.dataset.room;
+            const roomPrice = this.dataset.price;
 
-//             localStorage.setItem("selectedRoom", roomName);
-//             localStorage.setItem("selectedRoomPrice", roomPrice);
+            localStorage.setItem("selectedRoom", roomName);
+            localStorage.setItem("selectedRoomPrice", roomPrice);
 
-//             window.location.href = "../Whatsappformsubmit/RoomBooking.html";
+            window.location.href = "../Whatsappformsubmit/RoomBooking.html";
 
-//         });
+        });
 
-//     });
+    });
 
-// });
+});

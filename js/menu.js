@@ -1092,8 +1092,49 @@ const menuItems = [
         price: "₹330",
         description: "",
         image: ""
-    }
+    },
+
+
+    // SIGNATURE DISHES
+
+        {
+        category: "Signature Dishes",
+        name: "Kaju Paneer Seekh Kebab",
+        price: "₹380",
+        description: "",
+        image: ""
+    },
+
+
+        {
+        category: "Signature Dishes",
+        name: "Multani Paneer Tikka",
+        price: "₹360",
+        description: "",
+        image: ""
+    },
+
+
+      {
+        category: "Signature Dishes",
+        name: "Haandi Dum Biryani",
+        price: "₹350",
+        description: "",
+        image: ""
+    },
+
+
+        {
+        category: "Signature Dishes",
+        name: "Dahi Ke Sholay",
+        price: "₹360",
+        description: "",
+        image: ""
+    },
 ];
+
+
+
 
 
 
@@ -1145,9 +1186,7 @@ function createCard(item) {
                         ${item.price || "Price unavailable"}
                     </span>
 
-                    <button class="reserve-btn">
-                        Reserve
-                    </button>
+                  
 
                 </div>
 
@@ -1540,3 +1579,11 @@ clearGlobalSearch.addEventListener("click", function () {
     globalMenuSearch.focus();
 
 });
+
+
+
+
+
+// signamture popup
+
+

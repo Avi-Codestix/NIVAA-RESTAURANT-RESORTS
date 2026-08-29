@@ -326,7 +326,7 @@ document.querySelectorAll('.event-card').forEach((card, index) => {
     const pages = [
         '../EventCelebration/Weeding.html',
         '../EventCelebration/Birthday.html',
-        '../EventCelebration/Corporate.html',
+        '../EventCelebration/Seminars.html',
         '../EventCelebration/Receptions.html',
         '../EventCelebration/Engagements.html',
         '../EventCelebration/Hall-of-Honor.html'
@@ -377,3 +377,6 @@ if (dot && glow) {
 
     });
 }
+
+
+
