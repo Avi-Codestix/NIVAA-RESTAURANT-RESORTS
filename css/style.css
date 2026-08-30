@@ -4597,3 +4597,45 @@ select {
     transform: scale(0.8);
     transform-origin: center;
 }
+
+
+
+
+
+/* footer logo -------------- */
+
+
+/* =========================================
+   FOOTER LOGO FIX
+========================================= */
+
+.footer .footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer .footer-brand .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+    margin: 0 0 12px 0;
+    padding: 0;
+    text-align: left;
+}
+
+.footer .footer-brand .logo img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin: 0;
+}
+
+.footer .footer-brand .logo span {
+    margin: 0;
+    line-height: 1;
+}

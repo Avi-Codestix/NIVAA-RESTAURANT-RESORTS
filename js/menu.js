@@ -1134,7 +1134,7 @@ const menuItems = [
 
 
  {
-        category: "Main Course",
+        category: "Signature Dishes",
         name: "Angoori Kofta",
         price: "₹350",
         description: "",
