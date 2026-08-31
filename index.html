@@ -284,6 +284,12 @@
             </button>
             </div>
 
+
+
+         
+
+
+
             <div class="dishes-grid">
 
                 <!-- Card 1 -->
@@ -676,6 +682,67 @@
 
 
 
+    <!-- ========================================================== -->
+
+
+     <!-- POPUP -->
+
+
+    <!-- ============================================
+    SIGNATURE DISH DETAIL POPUP
+    ============================================ -->
+    <div class="signature-modal" id="signatureModal" aria-hidden="true">
+        <div class="signature-modal-box" role="dialog" aria-modal="true" aria-labelledby="signatureModalTitle">
+
+            <button class="signature-modal-close" id="signatureModalClose" type="button" aria-label="Close dish details">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="signature-modal-image-wrap">
+                <img id="signatureModalImage" src="" alt="" class="signature-modal-image">
+            </div>
+
+            <div class="signature-modal-content">
+
+                <div class="signature-modal-label">SIGNATURE DISH</div>
+
+                <h2 id="signatureModalTitle"></h2>
+
+                <div class="signature-modal-divider"> 
+                    <span></span>
+                    <i class="fas fa-utensils"></i>
+                    <span></span>
+                </div>
+
+                <p class="signature-modal-description" id="signatureModalDescription"></p>
+
+                <div class="signature-modal-perfect">
+                    <div class="signature-modal-perfect-title">
+                        <i class="far fa-lemon"></i>
+                        <strong>Perfect with</strong>
+                    </div>
+                    <p id="signatureModalPerfect"></p>
+                </div>
+
+                <div class="signature-modal-bottom">
+                    <div class="signature-modal-price-wrap">
+                        <div class="signature-modal-price" id="signatureModalPrice"></div>
+                        <small>(Taxes extra)</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- =========================================================== -->
+
+
+
+
+
     <!-- POPUP -->
 
      <!-- MENU POPUP -->
@@ -718,9 +785,9 @@
 </div>
 
 
-
-
     
+
+
      
 
  
@@ -746,3 +813,4 @@ window.addEventListener('load', function () {
 
 </body>
 </html>
+  <!-- ====== -->

@@ -1138,7 +1138,7 @@ const menuItems = [
         name: "Angoori Kofta",
         price: "₹350",
         description: "",
-        image: ""
+        image: "https://res.cloudinary.com/uzhcoc7h/image/upload/v1788107563/angoori_kofta.webp"
     },
 ];
 
@@ -1593,6 +1593,10 @@ clearGlobalSearch.addEventListener("click", function () {
 
 
 
-// signamture popup
+// signamture popup DEISH DETAILS
+
+
+
+
 
 
